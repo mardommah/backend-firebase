@@ -1,0 +1,3 @@
+- backend: logic database
+- templates: berisi file frontend file html 
+- static: berisi file gambar, javascript, css dsb

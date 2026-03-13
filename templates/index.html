@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block title %}Daftar User{% endblock %}
+
+{% block extra_css %}
+<style>
+    .table-custom th {
+        background-color: #4CAF50;
+        color: white;
+    }
+    .table-custom tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<h1>Selamat datang di website</h1>
+
+<img src="{{url_for('static', filename='img/profile.jpg')}}" alt="">
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem ullam quaerat, magnam et at aspernatur, sed quam ut molestiae optio nisi neque nemo mollitia, vel voluptatibus! Provident error neque nostrum!</p>
+{% endblock %}
